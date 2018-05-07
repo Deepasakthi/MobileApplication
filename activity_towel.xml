@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mat">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="24dp"
+                android:text="Choose Design"
+                android:textSize="24sp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="364dp"
+                android:layout_height="157dp"
+                android:layout_alignStart="@+id/textView"
+                android:layout_below="@+id/textView"
+                android:layout_marginTop="32dp"
+                android:adjustViewBounds="true"
+                android:maxHeight="100dp"
+                android:maxWidth="100dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/to1" />
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="select"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="366dp"
+                android:layout_height="157dp"
+                android:layout_alignStart="@+id/textView"
+                android:layout_below="@+id/textView"
+                android:layout_marginTop="32dp"
+                android:adjustViewBounds="true"
+                android:maxHeight="100dp"
+                android:maxWidth="100dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/to2" />
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="select"
+                android:textSize="20sp" />
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="366dp"
+                android:layout_height="157dp"
+                android:layout_alignStart="@+id/textView"
+                android:layout_below="@+id/textView"
+                android:layout_marginTop="32dp"
+                android:adjustViewBounds="true"
+                android:maxHeight="100dp"
+                android:maxWidth="100dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/to3" />
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="select"
+                android:textSize="20sp" />
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="366dp"
+                android:layout_height="157dp"
+                android:layout_alignStart="@+id/textView"
+                android:layout_below="@+id/textView"
+                android:layout_marginTop="32dp"
+                android:adjustViewBounds="true"
+                android:maxHeight="100dp"
+                android:maxWidth="100dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/to4" />
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="select"
+                android:textSize="20sp" />
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="366dp"
+                android:layout_height="157dp"
+                android:layout_alignStart="@+id/textView"
+                android:layout_below="@+id/textView"
+                android:layout_marginTop="32dp"
+                android:adjustViewBounds="true"
+                android:maxHeight="100dp"
+                android:maxWidth="100dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/to5" />
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="select"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
